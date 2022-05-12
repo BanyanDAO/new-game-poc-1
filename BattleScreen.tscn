@@ -1,0 +1,74 @@
+[gd_scene load_steps=3 format=2]
+
+[ext_resource path="res://MainingBlocksScreen.tscn" type="PackedScene" id=1]
+[ext_resource path="res://Art/Mocks/mycelium_transparent_1_istockphoto-927772138-612x612.png" type="Texture" id=2]
+
+[node name="BattleScreen" type="Node"]
+
+[node name="MainingBlocksScreen" parent="." instance=ExtResource( 1 )]
+position = Vector2( 384, 192 )
+
+[node name="BottomUI" type="ColorRect" parent="."]
+margin_top = 640.0
+margin_right = 1280.0
+margin_bottom = 786.0
+color = Color( 0.215686, 0.341176, 0.192157, 1 )
+
+[node name="Miners Team R" type="ColorRect" parent="."]
+margin_left = 384.0
+margin_top = 448.0
+margin_right = 896.0
+margin_bottom = 640.0
+color = Color( 0.12549, 0.12549, 0.12549, 1 )
+
+[node name="Mining Indicator2" type="ColorRect" parent="Miners Team R"]
+margin_right = 512.0
+margin_bottom = 192.0
+color = Color( 0.537255, 0.0392157, 0.462745, 0.12549 )
+
+[node name="Team R" type="ColorRect" parent="."]
+margin_left = 896.0
+margin_right = 1280.0
+margin_bottom = 640.0
+color = Color( 0.12549, 0.12549, 0.12549, 1 )
+
+[node name="MyceliumTransparent1Istockphoto-927772138-612X612" type="Sprite" parent="Team R"]
+position = Vector2( -152, 488 )
+scale = Vector2( 0.5, 0.5 )
+texture = ExtResource( 2 )
+
+[node name="Team Name2" type="Label" parent="Team R"]
+margin_left = 64.0
+margin_top = 64.0
+margin_right = 296.0
+margin_bottom = 112.0
+text = "Team R"
+
+[node name="Miners Team L" type="ColorRect" parent="."]
+margin_left = 384.0
+margin_right = 896.0
+margin_bottom = 192.0
+color = Color( 0.6, 0.6, 0.6, 1 )
+
+[node name="Mining Indicator" type="ColorRect" parent="Miners Team L"]
+margin_right = 512.0
+margin_bottom = 192.0
+color = Color( 0.537255, 0.0392157, 0.462745, 0.12549 )
+
+[node name="Team L" type="ColorRect" parent="."]
+margin_right = 384.0
+margin_bottom = 640.0
+color = Color( 0.6, 0.6, 0.6, 1 )
+
+[node name="MyceliumTransparent1Istockphoto-927772138-612X613" type="Sprite" parent="Team L"]
+position = Vector2( 536, 152 )
+rotation = 3.14159
+scale = Vector2( 0.5, 0.5 )
+texture = ExtResource( 2 )
+
+[node name="Team Name" type="Label" parent="Team L"]
+margin_left = 64.0
+margin_top = 64.0
+margin_right = 296.0
+margin_bottom = 112.0
+text = "Team L"

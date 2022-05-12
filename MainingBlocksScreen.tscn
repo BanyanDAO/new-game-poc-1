@@ -1,0 +1,101 @@
+[gd_scene load_steps=2 format=2]
+
+[ext_resource path="res://Block.tscn" type="PackedScene" id=1]
+
+[node name="MainingBlocksScreen" type="Node2D"]
+
+[node name="DirtBlock" parent="." instance=ExtResource( 1 )]
+position = Vector2( 32, 32 )
+
+[node name="DirtBlock2" parent="." instance=ExtResource( 1 )]
+position = Vector2( 96, 32 )
+
+[node name="DirtBlock3" parent="." instance=ExtResource( 1 )]
+position = Vector2( 160, 32 )
+
+[node name="DirtBlock4" parent="." instance=ExtResource( 1 )]
+position = Vector2( 224, 32 )
+
+[node name="DirtBlock5" parent="." instance=ExtResource( 1 )]
+position = Vector2( 288, 32 )
+
+[node name="DirtBlock6" parent="." instance=ExtResource( 1 )]
+position = Vector2( 352, 32 )
+
+[node name="DirtBlock7" parent="." instance=ExtResource( 1 )]
+position = Vector2( 416, 32 )
+
+[node name="DirtBlock8" parent="." instance=ExtResource( 1 )]
+position = Vector2( 480, 32 )
+
+[node name="DirtBlock9" parent="." instance=ExtResource( 1 )]
+position = Vector2( 32, 96 )
+
+[node name="DirtBlock10" parent="." instance=ExtResource( 1 )]
+position = Vector2( 96, 96 )
+
+[node name="DirtBlock11" parent="." instance=ExtResource( 1 )]
+position = Vector2( 160, 96 )
+
+[node name="DirtBlock12" parent="." instance=ExtResource( 1 )]
+position = Vector2( 224, 96 )
+
+[node name="DirtBlock13" parent="." instance=ExtResource( 1 )]
+position = Vector2( 288, 96 )
+
+[node name="DirtBlock14" parent="." instance=ExtResource( 1 )]
+position = Vector2( 352, 96 )
+
+[node name="DirtBlock15" parent="." instance=ExtResource( 1 )]
+position = Vector2( 416, 96 )
+
+[node name="DirtBlock16" parent="." instance=ExtResource( 1 )]
+position = Vector2( 480, 96 )
+
+[node name="DirtBlock17" parent="." instance=ExtResource( 1 )]
+position = Vector2( 32, 160 )
+
+[node name="DirtBlock18" parent="." instance=ExtResource( 1 )]
+position = Vector2( 96, 160 )
+
+[node name="DirtBlock19" parent="." instance=ExtResource( 1 )]
+position = Vector2( 160, 160 )
+
+[node name="DirtBlock20" parent="." instance=ExtResource( 1 )]
+position = Vector2( 224, 160 )
+
+[node name="DirtBlock21" parent="." instance=ExtResource( 1 )]
+position = Vector2( 288, 160 )
+
+[node name="DirtBlock22" parent="." instance=ExtResource( 1 )]
+position = Vector2( 352, 160 )
+
+[node name="DirtBlock23" parent="." instance=ExtResource( 1 )]
+position = Vector2( 416, 160 )
+
+[node name="DirtBlock24" parent="." instance=ExtResource( 1 )]
+position = Vector2( 480, 160 )
+
+[node name="DirtBlock25" parent="." instance=ExtResource( 1 )]
+position = Vector2( 32, 224 )
+
+[node name="DirtBlock26" parent="." instance=ExtResource( 1 )]
+position = Vector2( 96, 224 )
+
+[node name="DirtBlock27" parent="." instance=ExtResource( 1 )]
+position = Vector2( 160, 224 )
+
+[node name="DirtBlock28" parent="." instance=ExtResource( 1 )]
+position = Vector2( 224, 224 )
+
+[node name="DirtBlock29" parent="." instance=ExtResource( 1 )]
+position = Vector2( 288, 224 )
+
+[node name="DirtBlock30" parent="." instance=ExtResource( 1 )]
+position = Vector2( 352, 224 )
+
+[node name="DirtBlock31" parent="." instance=ExtResource( 1 )]
+position = Vector2( 416, 224 )
+
+[node name="DirtBlock32" parent="." instance=ExtResource( 1 )]
+position = Vector2( 480, 224 )
